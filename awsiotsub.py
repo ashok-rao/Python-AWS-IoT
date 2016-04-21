@@ -40,8 +40,8 @@ caPath = "aws-iot-rootCA.crt"
 certPath = "cert.pem"
 keyPath = "privkey.pem"
 
-#mqttc.tls_set(caPath, certfile=certPath, keyfile=keyPath, cert_reqs=ssl.CERT_REQUIRED, tls_version=ssl.PROTOCOL_TLSv1_2, ciphers=None)
+mqttc.tls_set(caPath, certfile=certPath, keyfile=keyPath, cert_reqs=ssl.CERT_REQUIRED, tls_version=ssl.PROTOCOL_TLSv1_2, ciphers=None)
 
-#mqttc.connect("A1K1D4ABLJYWA4.iot.eu-west-1.amazonaws.com", 8883, 60)
-mqttc.connect("iot.eclipse.org", 1883, 60)
+mqttc.connect("A1K1D4ABLJYWA4.iot.eu-west-1.amazonaws.com", 8883, 60)
+#mqttc.connect("iot.eclipse.org", 1883, 60)
 mqttc.loop_forever()
