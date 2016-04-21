@@ -1,7 +1,7 @@
 # Python-AWS-IoT
 
-Thanks to Mario Cannistra's getting started with AWS IoT sample code and documentation. This project uses his code
-for most MQTT functionality.
+Thanks to Mario Cannistra's getting started with AWS IoT repo at: https://github.com/mariocannistra/python-paho-mqtt-for-aws-iot
+This project uses the sample supplied by Mario for most MQTT functionality.
 
 
 AWS CLI needs to be configured, up and running before using this application.
